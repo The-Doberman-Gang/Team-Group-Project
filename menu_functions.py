@@ -1,7 +1,4 @@
-import colorama
-from colorama import Fore, Back, Style
-
-colorama.init(autoreset=True)
+import manageTask, contacts, internet_search
 
 
 def main_menu():
@@ -14,11 +11,13 @@ Main Menu (select a number):
                        ''')
 #logic to detect which feature should be accessed
     if selection == '1':
-        return "Contacts Function Place Holder"
+        return contacts.new_contact()
+    
     elif selection == '2':
-        return "Browser Function Place Holder"
+        return internet_search.internet_search()
+    
     elif selection == '3':
-        return "Tasks Function Place Holder"
+        return manageTask.main()
     else:
         return f"Invalid Selection - Please Try Again {main_menu()}"
         
