@@ -11,13 +11,13 @@ Create 4 separate functions that will:
 contacts= {}
 
 
-def new_contact(contacs):
+def new_contact():
     name= input("Enter name: ")
     phone= input("Enter phone number: ")
     
     contacts[name]= phone
     
-print(contacts)    
+    print(contacts)    
 # def update_contact();
 
 # def delete_contact():
