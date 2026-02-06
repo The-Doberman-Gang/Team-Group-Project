@@ -19,7 +19,7 @@
 
 ## Feature Implementation
 
-### Team 1 - Create Terminal Phone Menu Interface
+### Kami - Create Terminal Phone Menu Interface
 
 1. **Create Feature Branch:**
 
@@ -44,7 +44,7 @@
     git push origin feature-terminal-menu
     ```
 
-### Team 2 - Manage Contacts
+### Liz - Manage Contacts
 
 1. **Create Feature Branch:**
 
@@ -68,7 +68,7 @@
     git push origin feature-manage-contacts
     ```
 
-### Team 3 - Search on the Internet
+### Jake - Search on the Internet
 
 1. **Create Feature Branch:**
 
@@ -93,7 +93,7 @@
     git push origin feature-internet-search
     ```
 
-### Team 4 - Manage Tasks and Subtasks
+### Alex - Manage Tasks and Subtasks
 
 1. **Create Feature Branch:**
 
